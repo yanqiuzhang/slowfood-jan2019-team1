@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
-  root 'welcome#index'
+  root controller: :welcome, action: :index
 end

@@ -1,6 +1,3 @@
-Given("I am on the {string} page") do |page|
-    case page
-    when 'home'
-        visit '/' # or root_path
-    end
+Given("I can visit the welcome page") do
+    visit root_path
 end
