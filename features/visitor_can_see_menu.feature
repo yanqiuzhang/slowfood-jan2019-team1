@@ -9,3 +9,4 @@ Feature: Visitor can see different products on the menu
         And I should see "Starters"
         And I should see "Main Course"
         And I should see "Desserts"
+        #
