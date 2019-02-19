@@ -26,3 +26,4 @@
 /config/master.key
 
 .editorconfig
+.DS_store
