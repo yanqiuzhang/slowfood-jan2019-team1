@@ -16,7 +16,7 @@ RSpec.describe Product, type: :model do
 
   describe "Factory" do
     it "Should have a valid factory" do
-      expect(FactoryBot.create(:prduct)).to be_valid
+      expect(FactoryBot.create(:product)).to be_valid
     end
   end
 end
