@@ -1,10 +1,4 @@
 class ProductsController < ApplicationController
-  def :name
-  end
-
-  def :description
-  end
-
-  def :price
+  def index 
   end
 end
