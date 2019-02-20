@@ -18,5 +18,3 @@ Scenario: Visitor can see a list of products
     And I should see "Pasta"
     And I should see "Tender and rich"
     And I should see "90 kr"
-
-
