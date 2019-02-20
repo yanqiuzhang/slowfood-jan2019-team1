@@ -13,7 +13,7 @@ Given("the following products exist") do |table|
 end
 
 Given("I click on {string}") do |string|
-	expect
+	
 end
 
 When("I fill in {string} with {string}") do |string, string2|
