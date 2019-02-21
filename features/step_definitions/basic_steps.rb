@@ -8,6 +8,6 @@ Given("I visit the landing page") do
   visit root_path
 end
 
-Then("I should see {string}") do |price|
-  expect(page).to have_content price
+Then("I should see {string}") do |value|
+  expect(page).to have_content value
 end
