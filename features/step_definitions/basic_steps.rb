@@ -1,7 +1,13 @@
-# Given("I visit the landing page") do
-# 	visit root_path
-# end
+Given("the following products exist") do |table|
+    table.hashes.each do |product|
+        FactoryBot.create(:product, product)
+    end 
+end
+  
+Given("I visit the landing page") do
+  visit root_path
+end
 
-# And("I should see {string}") do |products|
-#     expect(page).to have_content products
-# end
+Then("I should see {string}") do |price|
+  expect(page).to have_content price
+end
