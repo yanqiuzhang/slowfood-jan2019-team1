@@ -21,4 +21,3 @@ Capybara.register_driver :selenium do |app|
 end
 Capybara.javascript_driver = :selenium
 Cucumber::Rails::Database.javascript_strategy = :truncation
-
