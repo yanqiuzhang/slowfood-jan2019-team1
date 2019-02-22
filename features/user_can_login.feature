@@ -1,4 +1,4 @@
-Feature: User Can
+Feature: User Can Login
     As a user
     In order to access my account
     I would like to be able log in
