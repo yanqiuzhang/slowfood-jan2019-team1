@@ -20,3 +20,4 @@ Feature: Visitor can sign up
 		And I fill in "Password confirmation" with "pasword"
 		And I click on "Sign up"
 		Then I should see "Password confirmation doesn't match Password"
+		
