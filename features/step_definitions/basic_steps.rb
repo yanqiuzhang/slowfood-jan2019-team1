@@ -15,3 +15,10 @@ Given("the following products exist") do |table|
         FactoryBot.create(:product, product)
     end
 end
+
+Given("the following user exists") do |table|
+    # table is a Cucumber::MultilineArgument::DataTable
+    pending # Write code here that turns the phrase above into concrete actions
+  end
+  
+  
