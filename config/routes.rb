@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root controller: :welcome, action: :index
+	root controller: :products, action: :index
 end
