@@ -6,6 +6,6 @@ When("I fill in {string} with {string}") do |field, content|
     fill_in field, with: content
 end
 
-When("I click on {string}") do |signup|
-    click_on signup
+When("I click on {string}") do |element|
+    click_on element
 end
