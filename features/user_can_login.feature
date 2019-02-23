@@ -5,8 +5,8 @@ Feature: User Can Login
 
     Background:
         Given the following user exists
-            | email        | password |
-            | joe@joes.com | password |
+        | email        | password |
+        | joe@joes.com | password |
         And I visit the landing page
         When I click on "Login"
 
