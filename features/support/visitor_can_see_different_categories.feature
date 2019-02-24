@@ -5,7 +5,7 @@ Feature: Visitor can see different categories in the menu
 
     Background:
         Given the following products exist
-        | Category | name             | description             | price |
+        | category | name             | description             | price |
         | Starter  | Bruschetta       | Diced Tomatoes on Bread | 345   |
         | Main     | Sherperd's Pie   | Irish Tradition         | 195   |
         | Desserts | Chocolate Mousse | tasty dessert           | 220   |
